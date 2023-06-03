@@ -24,19 +24,19 @@ export default function Footer() {
                         Primary Pages
                     </div>
                     <div className="footer-item">
-                    Home
+                    <a href='#' className='footer-link'>Home</a>
                     </div>
                     <div className="footer-item">
-                    About Us
+                    <a href='#' className='footer-link'>About Us</a>
                     </div>
                     <div className="footer-item">
-                    Services
+                    <a href='#' className='footer-link'>Services</a>
                     </div>
                     <div className="footer-item">
-                    Pages
+                    <a href='#' className='footer-link'>Pages</a>
                     </div>
                     <div className="footer-item">
-                    Contact 
+                    <a href='#' className='footer-link'>Contact</a> 
                     </div>
                 </div>
                 <div className="footer-cont-2">
@@ -44,19 +44,19 @@ export default function Footer() {
                     Utility Pages 
                     </div>
                     <div className="footer-item">
-                    Instruction
+                    <a href='#' className='footer-link'>Instruction</a>
                     </div>
                     <div className="footer-item">
-                    Instruction
+                    <a href='#' className='footer-link'>Instruction</a>
                     </div>
                     <div className="footer-item">
-                    Licenses
+                    <a href='#' className='footer-link'>Licenses</a>
                     </div>
                     <div className="footer-item">
-                    404 Not found
+                    <a href='#' className='footer-link'>404 Not found</a>
                     </div>
                     <div className="footer-item">
-                    Password protected
+                    <a href='#' className='footer-link'>Password protected</a>
                     </div>
                 </div>
                 <div className="footer-cont-2">
@@ -64,19 +64,19 @@ export default function Footer() {
                     Resources
                     </div>
                     <div className="footer-item">
-                    Support
+                    <a href='#' className='footer-link'>Support</a>
                     </div>
                     <div className="footer-item">
-                    Privacy policy
+                    <a href='#' className='footer-link'>Privacy policy</a>
                     </div>
                     <div className="footer-item">
-                    Terms & Conditions
+                    <a href='#' className='footer-link'>Terms & Conditions</a>
                     </div>
                     <div className="footer-item">
-                    Strategic finance
+                    <a href='#' className='footer-link'>Strategic finance</a>
                     </div>
                     <div className="footer-item">
-                    Video guide
+                    <a href='#' className='footer-link'>Video guide</a>
                     </div>
                 </div>
             </div>
