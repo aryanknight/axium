@@ -1,0 +1,162 @@
+.onboard-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+    flex-wrap:wrap;
+    color: rgb(255, 255, 255);
+    padding-bottom: 42px;
+    padding-top: 68px;
+}
+
+.onboard{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.onboard-left{
+    width:40% ;
+}
+
+.onboard-right{
+    width:60% ;
+    display: flex;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+
+.onboard-text-cont{
+    width: 100%;
+}
+
+.onboard-text-1{
+    width: 100%;
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+
+.onboard-text-2{
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.try-now{
+    font-size: 28px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.onboard-small-img{
+    display: none;
+}
+
+/* ------------------------------------------New Section----------------------------------------- */
+
+.onboard-left-new{
+    width:60% ;
+    display: flex;
+    align-items: center;
+    padding: 0rem 1rem;
+    flex-wrap: wrap;
+}
+
+.onboard-right-new{
+    width: 40%;
+}
+
+.voicecall-small-img{
+    display: none;
+}
+
+
+@media (max-width: 900px) {
+    .onboard-left{
+        display: none;
+    }
+
+    .onboard-right{
+        width: 70%;
+    }
+
+    .onboard-text-1{
+        width: 100%;
+        font-size: 42px;
+        margin-bottom: 32px;
+    }
+    
+    .onboard-text-2{
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 32px;
+    }
+    
+    .try-now{
+        font-size: 22px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .onboard-small-img{
+        position: absolute;
+        display: block;
+        height: 100%;
+        right: 0%;
+    }
+
+    .onboard-right-new{
+        display: none;
+    }
+
+    .onboard-left-new{
+        width: 70%;
+    }
+
+    .voicecall-small-img{
+        position: absolute;
+        display: block;
+        height: 80%;
+        right: 1%;
+    }
+}
+
+@media (max-width: 750px) {
+    
+    .onboard-small-img{
+        display: none;
+    }
+
+    .onboard-right{
+        width: 100%;
+    }
+
+    .onboard-text-1{
+        font-size: 36px;
+    }
+    
+    .onboard-text-2{
+        font-size: 18px;
+    }
+    
+    .try-now{
+        font-size: 20px;
+    }
+
+    .onboard-left-new{
+        width:100% ;
+    }
+    
+    .onboard-right-new{
+        display: none;
+    }
+
+    .voicecall-small-img{
+        display: none;
+    }
+}

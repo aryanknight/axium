@@ -1,0 +1,175 @@
+.reach-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+    flex-wrap:wrap;
+    color: rgb(255, 255, 255);
+    padding-bottom: 42px;
+    padding-top: 68px;
+}
+
+.reach{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.reach-logo-cont{
+    width:100% ;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.reach-logo{
+    width: 20%;
+}
+
+
+.reach-left{
+    width:40% ;
+}
+
+.reach-right{
+    width:60% ;
+    display: flex;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+
+.reach-text-cont{
+    width: 100%;
+}
+
+.reach-text-1{
+    width: 100%;
+    font-size: 56px;
+    margin-bottom: 32px;
+}
+
+.reach-input{
+    width: 100%;
+    background-color: black;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    padding: 2rem;
+    font-size: 28px;
+    color: #D4D4D4;
+    margin-bottom: 18px;
+}
+
+.reach-text-2{
+    width: 100%;
+    font-size: 18px;
+    color: #D4D4D4;
+    margin-bottom: 16px;
+}
+
+.reach-try-now{
+    font-size: 28px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.reach-small-img{
+    display: none;
+}
+
+/* ------------------------------------------New Section----------------------------------------- */
+
+.reach-left-new{
+    width:60% ;
+    display: flex;
+    align-items: center;
+    padding: 0rem 1rem;
+    flex-wrap: wrap;
+}
+
+.reach-right-new{
+    width: 40%;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .reach-left{
+        display: none;
+    }
+
+    .reach-right{
+        width: 70%;
+    }
+
+    .reach-text-1{
+        width: 100%;
+        font-size: 42px;
+        margin-bottom: 32px;
+    }
+    
+    .reach-text-2{
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 32px;
+    }
+    
+    .reach-try-now{
+        font-size: 22px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .reach-small-img{
+        position: absolute;
+        display: block;
+        height: 100%;
+        right: 0%;
+    }
+
+    .reach-right-new{
+        display: none;
+    }
+
+    .reach-left-new{
+        width: 70%;
+    }
+
+   
+}
+
+@media (max-width: 750px) {
+    
+    .reach-small-img{
+        display: none;
+    }
+
+    .reach-right{
+        width: 100%;
+    }
+
+    .reach-text-1{
+        font-size: 36px;
+    }
+    
+    .reach-text-2{
+        font-size: 18px;
+    }
+    
+    .reach-try-now{
+        font-size: 20px;
+    }
+
+    .reach-input{
+        font-size: 20px;
+        padding: 1.5rem;
+    }
+    
+}

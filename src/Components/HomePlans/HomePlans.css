@@ -1,0 +1,178 @@
+.homeplan-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+    flex-wrap:wrap;
+    color: rgb(255, 255, 255);
+    align-items: flex-start;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+
+.homeplan-head{
+    margin-top: 48px;
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 48px;
+}
+
+.homeplan-card-cont{
+    width:100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeplan-card{
+    width:30%;
+    padding: 1rem;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+}
+
+.homeplan-card-head{
+    width: 100%;
+    font-size: 20px;
+    padding: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.homeplan-card-cost{
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.homeplan-card-desc{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    padding: 1rem;
+}
+
+.homeplan-btn{
+    border: 2px solid #476DFF;
+    border-radius: 12px;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 24px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.homeplan-card:hover{
+    background-color: #476DFF;
+}
+
+/*----------------------------------- Homeplan box -------------------------------------*/
+
+.homeplan-new-box{
+    width: 100%;
+    margin-top: 64px;
+    padding: 2rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+}
+
+.homeplan-box-head{
+    font-size: 56px;
+    width: 85%;
+}
+
+.homeplan-text-cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 42px;
+}
+
+.homeplan-box-left{
+    width:70%;
+    color: #DFDFDF;
+}
+
+.homeplan-box-right{
+    width:30% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeplan-box-btn{
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    width: 80%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #476DFF;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    
+    .homeplan-card-cont{
+        padding: 1rem;
+    }
+
+    .homeplan-card-cost{
+        font-size: 28px;
+    }
+
+    .homeplan-btn{
+        font-size: 20px;
+    }
+
+    .homeplan-new-box-cont{
+        padding: 1rem;
+    }
+
+    .homeplan-box-btn{
+        width: 80%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .homeplan-head{
+        margin-top: 0px;
+        font-size: 28px;
+    }
+
+    .homeplan-card{
+        width:100%;
+        margin-bottom: 32px;
+    }
+
+    .homeplan-new-box{
+        margin-top: 0px;
+    }
+
+    .homeplan-box-head{
+        font-size: 26px;
+        width: 100%;
+    }
+    
+    .homeplan-text-cont{
+        margin-top: 28px;
+    }
+
+    .homeplan-box-left{
+        width: 100%;
+    }
+
+    .homeplan-box-right{
+        width: 100%;
+        margin-top: 28px;
+    }
+}
