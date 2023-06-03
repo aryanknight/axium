@@ -1,6 +1,7 @@
 import React from 'react';
 import Mobimg from '../../assets/mobimg.png';
 import {RightOutlined} from '@ant-design/icons';
+import Boxline from '../../assets/boxline.svg';
 import './HomePlans.css';
 
 export default function HomePlans() {
@@ -17,6 +18,7 @@ export default function HomePlans() {
                 <div className="homeplan-card-cont">
 
                     <div className="homeplan-card">
+                        <img src={Boxline} alt="" className="boxline" />
                         <div className='homeplan-card-head'>Design</div>
                         <div className="homeplan-card-cost">
                             $ 1500 / mo *
@@ -31,6 +33,7 @@ export default function HomePlans() {
                     </div>
                 
                     <div className="homeplan-card">
+                        <img src={Boxline} alt="" className="boxline" />
                         <div className='homeplan-card-head'>All in one</div>
                         <div className="homeplan-card-cost">
                             $ 2500 / mo *
@@ -45,6 +48,7 @@ export default function HomePlans() {
                     </div>
                 
                     <div className="homeplan-card">
+                        <img src={Boxline} alt="" className="boxline" />
                         <div className='homeplan-card-head'>developement</div>
                         <div className="homeplan-card-cost">
                             $ 1800 / mo *
@@ -60,6 +64,7 @@ export default function HomePlans() {
 
                 </div>
                 <div className="homeplan-new-box-cont">
+                    
                     <div className="homeplan-new-box">
                         <div className="homeplan-box-head">
                             From zero to hero: Our custom design & development services have got your back!

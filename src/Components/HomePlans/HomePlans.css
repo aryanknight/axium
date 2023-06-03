@@ -35,6 +35,14 @@
     background: #000000;
     border: 1px solid #FFFFFF;
     border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.boxline{
+    position: absolute;
+    right: -10px;
+    top: -10px;
 }
 
 .homeplan-card-head{
