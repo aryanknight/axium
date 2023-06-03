@@ -1,0 +1,197 @@
+.custom-plan-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+    flex-wrap:wrap;
+    color: rgb(255, 255, 255);
+    align-items: flex-start;
+    padding-bottom: 42px;
+}
+
+.custom-plan-head{
+    margin-top: 48px;
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 48px;
+}
+
+.custom-plan-card-cont{
+    width:100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+.custom-plan-card-ques{
+    width: 100%;
+    font-size: 24px;
+    padding: 1rem 0rem;
+}
+
+.custom-plan-card{
+    width:30%;
+    padding: 1rem;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.boxline{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+
+.custom-plan-card-head{
+    width: 100%;
+    font-size: 20px;
+    padding: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.custom-plan-card-cost{
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.custom-plan-card-desc{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    padding: 1rem;
+}
+
+.custom-plan-btn{
+    border: 2px solid #476DFF;
+    border-radius: 12px;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 24px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.custom-plan-card-active{
+    background-color: #476DFF;
+}
+
+.custom-plan-card:hover{
+    cursor: pointer;
+    background-color: #6785ff;
+}
+
+/*----------------------------------- custom-plan box -------------------------------------*/
+
+.custom-plan-new-box{
+    width: 100%;
+    margin-top: 64px;
+    padding: 2rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+}
+
+.custom-plan-box-head{
+    font-size: 56px;
+    width: 85%;
+}
+
+.custom-plan-text-cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 42px;
+}
+
+.custom-plan-box-left{
+    width:70%;
+    color: #DFDFDF;
+}
+
+.custom-plan-box-right{
+    width:30% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-plan-box-btn{
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    width: 80%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #476DFF;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    
+    .custom-plan-card-cont{
+        padding: 1rem;
+    }
+
+    .custom-plan-card-cost{
+        font-size: 28px;
+    }
+
+    .custom-plan-btn{
+        font-size: 20px;
+    }
+
+    .custom-plan-new-box-cont{
+        padding: 1rem;
+    }
+
+    .custom-plan-box-btn{
+        width: 80%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .custom-plan-head{
+        margin-top: 0px;
+        font-size: 28px;
+    }
+
+    .custom-plan-card{
+        width:100%;
+        margin-bottom: 32px;
+    }
+
+    .custom-plan-new-box{
+        margin-top: 0px;
+    }
+
+    .custom-plan-box-head{
+        font-size: 26px;
+        width: 100%;
+    }
+    
+    .custom-plan-text-cont{
+        margin-top: 28px;
+    }
+
+    .custom-plan-box-left{
+        width: 100%;
+    }
+
+    .custom-plan-box-right{
+        width: 100%;
+        margin-top: 28px;
+    }
+}

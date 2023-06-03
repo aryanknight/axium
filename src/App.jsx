@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import "./App.css";
+import CustomizePlans from "./Pages/CustomizePlans";
 
 function App() {
   const RequireAuth = ({ children }) => {
@@ -13,6 +14,13 @@ function App() {
         path="/"
         element={
           <HomePage />
+        }
+      />
+      <Route
+        exact
+        path="/customizeplan"
+        element={
+          <CustomizePlans />
         }
       />
     </Routes>
