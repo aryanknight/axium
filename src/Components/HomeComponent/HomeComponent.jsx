@@ -2,6 +2,7 @@ import React from 'react';
 import NavLogo from '../../assets/nav-logo.svg';
 import {RightOutlined} from '@ant-design/icons';
 import Overview from '../../assets/Overview.svg';
+import { Link } from 'react-router-dom';
 import './HomeComponent.css';
 export default function HomeComponent() {
   return (
@@ -18,7 +19,11 @@ export default function HomeComponent() {
                     <div className="nav-cont-item">Portfolio</div>
                 </div>
                 <div className="nav-cont-1">
-                    <div className="nav-cont-item">Login</div>
+                    <div className="nav-cont-item">
+                        <Link to="/login" className='home-login-btn'>
+                            Login
+                        </Link>
+                    </div>
                     <div className="nav-cont-item">
                         <div className="nav-btn">Sign up free</div>
                     </div>
