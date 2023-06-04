@@ -3,6 +3,7 @@ import HomePage from "./Pages/HomePage";
 import "./App.css";
 import CustomizePlans from "./Pages/CustomizePlans";
 import LoginPage from "./Pages/LoginPage";
+import SignupPage from "./Pages/SignupPage";
 
 function App() {
   const RequireAuth = ({ children }) => {
@@ -29,6 +30,13 @@ function App() {
         path="/login"
         element={
           <LoginPage />
+        }
+      />
+      <Route
+        exact
+        path="/signup"
+        element={
+          <SignupPage />
         }
       />
     </Routes>

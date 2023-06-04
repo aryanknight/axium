@@ -13,21 +13,6 @@
     overflow-x: hidden;
 }
 
-.signup{
-    margin: 0px;
-    min-height: 100vh;
-    max-height: 100vh;
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    position: relative;
-    overflow-y: hidden;
-    background-color: rgb(255, 255, 255);
-    overflow-x: hidden;
-}
-
 #login-img{
     position: absolute;
     width: 20%;
@@ -177,10 +162,6 @@
     text-align: center;
 }
 
-.login-logo{
-
-}
-
 .login-right-text{
     color: #D0D0D0;
     margin-top: 18px;
@@ -188,6 +169,159 @@
     font-size: 18px;
 }
 
+/* ------------------------------------------signup------------------------------------------------- */
+
+.signup{
+    margin: 0px;
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    overflow-y: hidden;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding: 1rem;
+}
+
+.signup-cont{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.signup-left{
+    background: #000000;
+    border-radius: 35px;
+    color: white;
+    padding: 1rem;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.signup-left-head{
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.signup-left-text{
+    color: #D0D0D0;
+    text-align: center;
+    margin-bottom: 18px;
+    width: 80%;
+}
+
+.signup-left-img{
+    width: 100%;
+    text-align: center;
+}
+
+.signup-man-img{
+    width: 50%;
+}
+
+.signup-right{
+    width: 60%;
+    padding: 1rem;
+}
+
+.signup-right-logo{
+    width:100% ;
+    padding: 1rem;
+    text-align: right;
+}
+
+.signup-ques{
+    width:100% ;
+    padding: 1rem;
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 42px;
+}
+
+.signup-ans{
+    width:100% ;
+    padding: 1rem
+}
+
+.signup-input{
+    width: 50%;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 32px;
+    color: black;
+    color: #B3B3B3;
+    font-family: 'Space Grotesk', sans-serif !important;
+    padding: 1rem;
+}
+
+.signup-input:focus-visible{
+    outline: none;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.signup-btn-cont{
+    margin-top: 42px;
+    width:100% ;
+    text-align: right;
+    font-size: 36px;
+    color: #606060;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+.signup-back-btn{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .signup{
+        max-height: unset;
+    }
+    .signup-left{
+        display: none;
+    }
+    .signup-right{
+        width: 100%;
+    }
+    .signup-right-logo{
+        text-align: left;
+    }
+    .signup-logo{
+        width: 50%;
+    }
+    .signup-left-head{
+        font-size: 28px;
+    }
+    .signup-ques{
+        margin-top: 0px;
+    }
+    .signup-left-text{
+        width: 100%;
+    }
+    .signup-input{
+        width: 100%;
+        font-size: 24px;
+    }
+    .signup-btn-cont{
+        font-size: 24px;
+    }
+}
 
 @media (max-width:850px){
     .login-left{
@@ -222,28 +356,7 @@
     .login-btn{
         width: 100%;
     }
-
-    .or{
-        width: 100%;
-    }
-    
-    .or-option{
-        width: 100%;
-    }
-
-    .login-copyright{
-        display: none;
-    }
-
-    .policies{
-        width: 100%;
-        padding-bottom: 1rem;
-    }
 }
-/* 
-@media(min-width:1500px){
-    .login-subhead{}
-} */
 
 ::-webkit-scrollbar {
     width: 10px;
