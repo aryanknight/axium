@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NavLogo from '../../assets/nav-logo.svg';
 import Boxline from '../../assets/boxline.svg';
+import Boxbg from '../../assets/boxbg.png';
 import './CustomizePlan.css';
 
 export default function CustomizePlan() {
@@ -53,7 +54,7 @@ export default function CustomizePlan() {
                 </div>
                 <div className="custom-plan-card-cont">
                     <div className="custom-plan-card-ques">
-                    What kind of experience ar you looking for ?
+                        What kind of experience ar you looking for ?
                     </div>
                     <div className={`custom-plan-card ${activeBox[0].activeBox==0?'custom-plan-card-active':''}`} onClick={e=>handleBox(0,0)}>
                         <img src={Boxline} alt="" className="boxline" />
@@ -63,11 +64,7 @@ export default function CustomizePlan() {
                         </div>
                         <div className="custom-plan-card-desc">
                             Premium Design Services for you !<br/>
-                            {/* <div style={{marginTop:'10px',}}><u style={{cursor:'pointer'}}> Book a call</u></div> */}
                         </div>
-                        {/* <div className="custom-plan-btn">
-                            Customise Plan
-                        </div> */}
                     </div>
                 
                     <div className={`custom-plan-card ${activeBox[0].activeBox==1?'custom-plan-card-active':''}`} onClick={e=>handleBox(0,1)}>
@@ -78,11 +75,7 @@ export default function CustomizePlan() {
                         </div>
                         <div className="custom-plan-card-desc">
                             Premium Design Services for you !<br/>
-                            {/* <div style={{marginTop:'10px',}}><u style={{cursor:'pointer'}}> Book a call</u></div> */}
                         </div>
-                        {/* <div className="custom-plan-btn">
-                            Customise Plan
-                        </div> */}
                     </div>
 
                     <div className={`custom-plan-card ${activeBox[0].activeBox==2?'custom-plan-card-active':''}`} onClick={e=>handleBox(0,2)}>
@@ -93,11 +86,7 @@ export default function CustomizePlan() {
                         </div>
                         <div className="custom-plan-card-desc">
                             Premium Design Services for you !<br/>
-                            {/* <div style={{marginTop:'10px',}}><u style={{cursor:'pointer'}}> Book a call</u></div> */}
                         </div>
-                        {/* <div className="custom-plan-btn">
-                            Customise Plan
-                        </div> */}
                     </div>
 
                 </div>
@@ -115,11 +104,7 @@ export default function CustomizePlan() {
                         </div>
                         <div className="custom-plan-card-desc">
                             Premium Design Services for you !<br/>
-                            {/* <div style={{marginTop:'10px',}}><u style={{cursor:'pointer'}}> Book a call</u></div> */}
                         </div>
-                        {/* <div className="custom-plan-btn">
-                            Customise Plan
-                        </div> */}
                     </div>
                 
                     <div className={`custom-plan-card ${activeBox[1].activeBox==1?'custom-plan-card-active':''}`} onClick={e=>handleBox(1,1)}>
@@ -130,11 +115,7 @@ export default function CustomizePlan() {
                         </div>
                         <div className="custom-plan-card-desc">
                             Premium Design Services for you !<br/>
-                            {/* <div style={{marginTop:'10px',}}><u style={{cursor:'pointer'}}> Book a call</u></div> */}
                         </div>
-                        {/* <div className="custom-plan-btn">
-                            Customise Plan
-                        </div> */}
                     </div>
 
                     <div className={`custom-plan-card ${activeBox[1].activeBox==2?'custom-plan-card-active':''}`} onClick={e=>handleBox(1,2)}>
@@ -145,11 +126,7 @@ export default function CustomizePlan() {
                         </div>
                         <div className="custom-plan-card-desc">
                             Premium Design Services for you !<br/>
-                            {/* <div style={{marginTop:'10px',}}><u style={{cursor:'pointer'}}> Book a call</u></div> */}
                         </div>
-                        {/* <div className="custom-plan-btn">
-                            Customise Plan
-                        </div> */}
                     </div>
 
                 </div>
@@ -167,11 +144,7 @@ export default function CustomizePlan() {
                         </div>
                         <div className="custom-plan-card-desc">
                             Premium Design Services for you !<br/>
-                            {/* <div style={{marginTop:'10px',}}><u style={{cursor:'pointer'}}> Book a call</u></div> */}
                         </div>
-                        {/* <div className="custom-plan-btn">
-                            Customise Plan
-                        </div> */}
                     </div>
                 
                     <div className={`custom-plan-card ${activeBox[2].activeBox==1?'custom-plan-card-active':''}`} onClick={e=>handleBox(2,1)}>
@@ -182,11 +155,7 @@ export default function CustomizePlan() {
                         </div>
                         <div className="custom-plan-card-desc">
                             Premium Design Services for you !<br/>
-                            {/* <div style={{marginTop:'10px',}}><u style={{cursor:'pointer'}}> Book a call</u></div> */}
                         </div>
-                        {/* <div className="custom-plan-btn">
-                            Customise Plan
-                        </div> */}
                     </div>
 
                     <div className={`custom-plan-card ${activeBox[2].activeBox==2?'custom-plan-card-active':''}`} onClick={e=>handleBox(2,2)}>
@@ -197,11 +166,7 @@ export default function CustomizePlan() {
                         </div>
                         <div className="custom-plan-card-desc">
                             Premium Design Services for you !<br/>
-                            {/* <div style={{marginTop:'10px',}}><u style={{cursor:'pointer'}}> Book a call</u></div> */}
                         </div>
-                        {/* <div className="custom-plan-btn">
-                            Customise Plan
-                        </div> */}
                     </div>
 
                 </div>
@@ -210,17 +175,18 @@ export default function CustomizePlan() {
                     
                     <div className="custom-plan-new-box">
                         <div className="custom-plan-box-head">
-                            From zero to hero: Our custom design & development services have got your back!
+                            TOTAL : $ 2980 / mo
+                            <div style={{fontSize:'16px',marginTop:'18px'}}>
+                                Premium Design Services for you !
+                            </div>
                         </div>
+                        
                         <div className="custom-plan-text-cont">
-                            <div className="custom-plan-box-left">
-                            Prepare to be dazzled by our high fidelity design! It's so polished, it'll shine brighter than the sun. Our seamless applications will leave your users speechless with a resounding 'Wow!' And as for your competitors? They'll be scratching their heads, wondering 'How?' we do it. Get ready to shine in the spotlight with our irresistible design magic!
+                            
+                            <div className="custom-plan-box-btn">
+                                Pay Now ! 🚀
                             </div>
-                            <div className="custom-plan-box-right">
-                                <div className="custom-plan-box-btn">
-                                    Customise Plan
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

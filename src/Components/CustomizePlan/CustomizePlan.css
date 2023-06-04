@@ -96,42 +96,39 @@
 
 .custom-plan-new-box{
     width: 100%;
-    margin-top: 64px;
+    margin-top: 5rem;
     padding: 2rem;
     border: 1px solid #FFFFFF;
     border-radius: 15px;
+    background-color: #4D4D4D;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../../assets/boxbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .custom-plan-box-head{
     font-size: 56px;
-    width: 85%;
+    width: 50%;
 }
 
 .custom-plan-text-cont{
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 42px;
-}
+    justify-content: flex-end;
 
-.custom-plan-box-left{
-    width:70%;
-    color: #DFDFDF;
-}
-
-.custom-plan-box-right{
-    width:30% ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .custom-plan-box-btn{
     border: 1px solid #FFFFFF;
     border-radius: 12px;
-    width: 80%;
+    width: 40%;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: #476DFF;
     font-size: 24px;
     cursor: pointer;
@@ -143,22 +140,23 @@
         padding: 1rem;
     }
 
-    .custom-plan-card-cost{
-        font-size: 28px;
-    }
-
-    .custom-plan-btn{
-        font-size: 20px;
-    }
-
     .custom-plan-new-box-cont{
         padding: 1rem;
+    }
+
+    .custom-plan-new-box{
+        margin-top: 0rem;
+    }
+
+    .custom-plan-box-head{
+        font-size: 32px;
     }
 
     .custom-plan-box-btn{
         width: 80%;
         font-size: 20px;
     }
+
 }
 
 @media (max-width: 750px) {
@@ -168,9 +166,23 @@
         font-size: 28px;
     }
 
+    .custom-plan-card-cont{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
     .custom-plan-card{
         width:100%;
         margin-bottom: 32px;
+    }
+
+    .custom-plan-card-ques{
+        font-size: 20px;
+    }
+
+    .custom-plan-card-cost{
+        font-size: 36px;
     }
 
     .custom-plan-new-box{
@@ -183,15 +195,8 @@
     }
     
     .custom-plan-text-cont{
-        margin-top: 28px;
-    }
-
-    .custom-plan-box-left{
-        width: 100%;
-    }
-
-    .custom-plan-box-right{
         width: 100%;
         margin-top: 28px;
+        justify-content: flex-start;
     }
 }
