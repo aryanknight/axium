@@ -14,16 +14,16 @@ export default function Reach() {
         <div className="reach-cont">
             <div className="container-medium reach">
                 <div className="reach-logo-cont">
-                    <img src={Safe} alt="" className="reach-logo" />
-                    <img src={Multi} alt="" className="reach-logo" />
-                    <img src={Sowlow} alt="" className="reach-logo" />
-                    <img src={Jungle} alt="" className="reach-logo" />
+                    <img src={Safe} alt="" className="reach-logo" data-aos="fade-up-right" data-aos-duration="3000"/>
+                    <img src={Multi} alt="" className="reach-logo" data-aos="fade-up-right" data-aos-duration="3000"/>
+                    <img src={Sowlow} alt="" className="reach-logo" data-aos="fade-up-left" data-aos-duration="3000"/>
+                    <img src={Jungle} alt="" className="reach-logo" data-aos="fade-up-left" data-aos-duration="3000"/>
                 </div>
-                <div className="reach-left">
+                <div className="reach-left" data-aos="slide-right" data-aos-duration="3000">
                     <img src={Astro} alt="" className="reach-img" />
                 </div>
                 <div className="reach-right">
-                  <div className="reach-text-cont">
+                  <div className="reach-text-cont" data-aos="slide-left" data-aos-duration="3000">
                       <div className="reach-text-1">
                         Got queries? We promise to respond faster than a cheetah on roller skates!
                       </div>

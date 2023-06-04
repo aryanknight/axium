@@ -11,13 +11,13 @@ export default function HomePlans() {
       <div className="container-large">
         <div className="homeplan-cont">
             <div className="container-medium">
-                <div className="homeplan-head">
+                <div className="homeplan-head" data-aos="fade-up" data-aos-duration="2000">
                     No jokes, just real savings for you<br/>
                     Money doesn't grow on trees, but it does multiply with our incredible plans!
                 </div>
                 <div className="homeplan-card-cont">
 
-                    <div className="homeplan-card">
+                    <div className="homeplan-card" data-aos="fade-up" data-aos-duration="2000">
                         <img src={Boxline} alt="" className="boxline" />
                         <div className='homeplan-card-head'>Design</div>
                         <div className="homeplan-card-cost">
@@ -32,7 +32,7 @@ export default function HomePlans() {
                         </div>
                     </div>
                 
-                    <div className="homeplan-card">
+                    <div className="homeplan-card" style={{backgroundColor:'#476DFF'}} data-aos="fade-up" data-aos-duration="2000">
                         <img src={Boxline} alt="" className="boxline" />
                         <div className='homeplan-card-head'>All in one</div>
                         <div className="homeplan-card-cost">
@@ -47,7 +47,7 @@ export default function HomePlans() {
                         </div>
                     </div>
                 
-                    <div className="homeplan-card">
+                    <div className="homeplan-card" data-aos="fade-up" data-aos-duration="2000">
                         <img src={Boxline} alt="" className="boxline" />
                         <div className='homeplan-card-head'>developement</div>
                         <div className="homeplan-card-cost">
@@ -65,7 +65,7 @@ export default function HomePlans() {
                 </div>
                 <div className="homeplan-new-box-cont">
                     
-                    <div className="homeplan-new-box">
+                    <div className="homeplan-new-box" data-aos="fade-up" data-aos-duration="2000">
                         <div className="homeplan-box-head">
                             From zero to hero: Our custom design & development services have got your back!
                         </div>
@@ -86,7 +86,7 @@ export default function HomePlans() {
 
         <div className="onboard-cont" style={{background:'white',color:'black'}}>
             <div className="container-medium onboard">
-                <div className="onboard-left-new">
+                <div className="onboard-left-new" data-aos="slide-right" data-aos-duration="2000">
                   <div className="onboard-text-cont">
                       <div className="onboard-text-1">
                       Unleash Your Imagination: Immerse Yourself in Our Inspiring Portfolio!
@@ -100,7 +100,7 @@ export default function HomePlans() {
                       </div>
                     </div>
                 </div>
-                <div className="onboard-right-new">
+                <div className="onboard-right-new" data-aos="slide-left" data-aos-duration="2000">
                     <img src={Mobimg} className="onboard-img" />
                 </div>
             </div>

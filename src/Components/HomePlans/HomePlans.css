@@ -77,10 +77,10 @@
     cursor: pointer;
 }
 
-.homeplan-card:hover{
+.homeplan-btn:hover{
     background-color: #476DFF;
+    border-color: white;
 }
-
 /*----------------------------------- Homeplan box -------------------------------------*/
 
 .homeplan-new-box{

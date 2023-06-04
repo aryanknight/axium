@@ -24,7 +24,7 @@ export default function HomeComponent() {
                     </div>
                 </div>
             </div>
-            <div className="container-medium">
+            <div className="container-medium" data-aos="fade-up-right" data-aos-duration="2000">
                 <div className="home-text-cont">
                     <div className="home-text-1">
                         Don't break the bank, let Axium

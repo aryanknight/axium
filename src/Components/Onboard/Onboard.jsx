@@ -10,11 +10,11 @@ export default function Onboard() {
       <div className="container-large">
         <div className="onboard-cont">
             <div className="container-medium onboard">
-                <div className="onboard-left">
+                <div className="onboard-left" data-aos="slide-right" data-aos-duration="2000">
                     <img src={OverImg} alt="" className="onboard-img" />
                 </div>
                 <div className="onboard-right">
-                  <div className="onboard-text-cont">
+                  <div className="onboard-text-cont" data-aos="slide-left" data-aos-duration="2000">
                       <div className="onboard-text-1">
                         We don't just think
                         outside the box, we live
@@ -36,7 +36,7 @@ export default function Onboard() {
 
         <div className="onboard-cont" style={{background:'white',color:'black'}}>
             <div className="container-medium onboard">
-                <div className="onboard-left-new">
+                <div className="onboard-left-new" data-aos="slide-right" data-aos-duration="2000">
                   <div className="onboard-text-cont">
                       <div className="onboard-text-1">
                       Choose us and watch
@@ -54,7 +54,7 @@ export default function Onboard() {
                       </div>
                     </div>
                 </div>
-                <div className="onboard-right-new">
+                <div className="onboard-right-new" data-aos="slide-left" data-aos-duration="2000">
                     <img src={VoiceCall} className="onboard-img" />
                 </div>
             </div>
